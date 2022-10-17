@@ -1,0 +1,19 @@
+.green {
+    background-color: rgba(89, 242, 47, 0.619);
+    color: rgb(253, 246, 246);
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 4px;
+    grid-row-gap: 5px;
+    border-color: 2px solid crimson;
+    margin-top: 1vw;
+}
+
+#btnColor {
+    grid-area: 1 / 1 / 2 / 2; 
+
+}

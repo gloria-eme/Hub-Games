@@ -1,0 +1,19 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 4px;
+    grid-row-gap: 5px;
+    margin: 2vw
+}
+
+#foot1 {
+    grid-area: 1 / 1 / 2 / 2;
+    text-align: center;
+
+}
+
+#foot2 {
+    grid-area: 1 / 2 / 2 / 4;
+
+}

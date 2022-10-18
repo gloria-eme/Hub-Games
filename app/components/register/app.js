@@ -1,5 +1,5 @@
+import { cleanPage } from "../../utils/cleanPage";
 import "./style.css";
-
 
 
 
@@ -7,13 +7,28 @@ export const RegisterName = () => {
     const registerInput = document.querySelector(".registerInput")
     const registerBtn = document.querySelector(".registerBtn");
     console.log(registerInput)
-    const setName = () => localStorage.setItem("user", registerInput.value)
+   console.log(registerBtn) 
     registerBtn.addEventListener("click", () => {
-        return setName()
+        return setName();
     })
 
 }
 
+export const setName = () => {
+    const registerInput = document.querySelector(".registerInput")
+    const registerBtn = document.querySelector(".registerBtn");
+    const storage = localStorage.setItem("user", registerInput.value);
+    printHome();
+}
+
+const printHome = () => {
+    const app = document.querySelector("#app");
+    cleanPage(app);
+    app.innerHTML = `
+    <h2 id="h2Home">Bienvenid@ ${localStorage.user}</h2>
+    <button id="pokeApi"></button>
+    `
+}
 
 // console.log(RegisterName())
 // //registerInput.textContent = localStorage.getItem("user")

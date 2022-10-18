@@ -1,10 +1,11 @@
-.green {
+/* .green {
     background-color: rgba(89, 242, 47, 0.619);
     color: rgb(253, 246, 246);
-}
+} */
 
 header {
     display: grid;
+    height: 3vh;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 4px;
@@ -13,7 +14,9 @@ header {
     margin-top: 1vw;
 }
 
-#btnColor {
-    grid-area: 1 / 1 / 2 / 2; 
+.btnColor {
+    width: 10vh;
+    grid-area: 1 / 1 / 2 / 2;
+    margin-left: 5vh; 
 
 }

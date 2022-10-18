@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
    
  
 }
@@ -38,12 +38,12 @@ h1 {
     font-size: 3rem;
 }
 
-#registerDiv {
+/* #registerDiv {
     grid-area: 4 / 2 / 7 / 5; 
     display: grid;
     justify-content: center;
     align-items: center;
-}
+} */
 
 h2 {
     grid-area: 4 / 2 / 5 / 5;
@@ -53,7 +53,7 @@ h2 {
 
 }
 
-#registerInput {
+.registerInput {
     grid-area: 5 / 2 / 6 / 5;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@ h2 {
 
 }
 
-#registerbtn {
+.registerBtn {
     grid-area: 6 / 3 / 7 / 4;
     display: flex;
     justify-content: center;

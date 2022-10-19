@@ -1,4 +1,5 @@
-
+import { cleanPage } from "../../utils/cleanPage";
+import "./style.css"
 
 export const createRegister = () => {
     const h1 = document.createElement("h1");
@@ -18,6 +19,7 @@ export const createRegister = () => {
     // registerBtn.addEventListener("click", () =>  registerInput.value)
     
     const app = document.querySelector("#app");
+    cleanPage(app);
     app.appendChild(h1);
     app.appendChild(h2);
     app.appendChild(registerInput);

@@ -1,3 +1,4 @@
 export const cleanPage = (container) => {
-    container.innerText = "";
+   container.innerHTML = "";
 }
+

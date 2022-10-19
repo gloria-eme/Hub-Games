@@ -29,3 +29,13 @@ const BtnPoke = () => {
 }
 BtnPoke();
 await getIds();
+
+const getRandomInt = (min, max) => {
+    return Math.floor(Math.random() * (max - min)) + min;
+  
+}
+document.addEventListener("DOMContentLoaded", () => {
+    const ramdom = getRandomInt(1, 152);
+    getIds(ramdom);
+});
+

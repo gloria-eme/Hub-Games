@@ -1,11 +1,4 @@
-#app {
-    height: 60rem;
-    display: grid;
-    grid-template-columns: 10rem repeat(3, 1fr) 10rem;
-    grid-template-rows: repeat(8, 1fr);
-    grid-column-gap: 4px;
-    grid-row-gap: 5px;
-}
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
 
 
 #h2Home {
@@ -14,6 +7,7 @@
 }
 
 #sectionHome {
+    font-family: 'Pokemon Solid';
     grid-area: 2 / 2 / 9 / 5;; 
 }
 

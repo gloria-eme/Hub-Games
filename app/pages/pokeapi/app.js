@@ -1,18 +1,26 @@
-//import { cleanPage } from "../../utils/cleanPage";
+
+
+import { cleanPage } from "../../utils/cleanPage";
 //import { getIds } from "./services/app"
 
 // export const printPokeApi = async () => {
-//     const app = document.querySelector("#app");
-//     cleanPage(app);
-//     app.innerHTML = `
-//     <h2 id="h2Poke">PokeApi</h2>
-//     <p id ="user">Hola ${localStorage.user}</p>
-//     <section id="sectionPoke">
+//         const h2Poke = document.createElement("h2");
+//         const user = document.createElement("p");
+//         const sectionPoke = document.createElement("section");
         
-//     </section>
-//     `;
-// await getIds()
+//         h2Poke.classList.add("h2Poke");
+//         user.classList.add("user");
+//         sectionPoke.classList.add("sectionPoke")
+        
+//         h2Poke.innerText = "PokeApi";
+//         user.innerText = `Hola ${localStorage.user}`;
+    
+//         const app = document.querySelector("#app");
+//         cleanPage(app);
+//         app.appendChild(h2Poke);
+//         app.appendChild(user);
+//         app.appendChild(sectionPoke); 
+//     };
 
 
-// };
 

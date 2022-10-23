@@ -1,25 +1,25 @@
-import { createRegister } from "../../pages/register/app";
+// import { createRegister } from "../../pages/register/app";
 import { printHome } from "../../pages/home/app";
 
 
-export const loginUser = () => {
-    if (localStorage.user) {
-        printHome();
-    } else {
-        createRegister();
-    }
-}
+// export const loginUser = () => {
+//     if (localStorage.user) {
+//         printHome();
+//     } else {
+//         createRegister();
+//     }
+// }
 
 export const RegisterName = () => {
     const registerInput = document.querySelector(".registerInput")
-    const registerBtn = document.querySelector(".registerBtn");
+    const registerBtn = document.querySelector(".Btn1");
     registerBtn.addEventListener("click", () => {
         return setName();
     })
 
 }
 
-export const setName = () => {
+const setName = () => {
     const registerInput = document.querySelector(".registerInput")
     const registerBtn = document.querySelector(".registerBtn");
     const storage = localStorage.setItem("user", registerInput.value);

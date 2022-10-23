@@ -15,8 +15,15 @@ header {
 }
 
 .btnColor {
-    width: 10vh;
+    background-image: url("../../public/images/paleta-color.png");
+    width: 10vh; 
     grid-area: 1 / 1 / 2 / 2;
     margin-left: 5vh; 
-    cursor: pointer;
+    cursor: pointer; 
+    background-repeat:no-repeat;
+    height:10vh;
+    background-size: 50px 50px;
+    background-position:center;
+    background-color: transparent;
+    border-color: transparent;
 }

@@ -2,6 +2,9 @@ import { cleanPage } from "../../utils/cleanPage";
 import "./style.css"
 
 export const createRegister = () => {
+    const box1 = document.createElement("div");
+    box1.classList.add("box1");
+
     const h1 = document.createElement("h1");
     h1.innerText = "El Hub-Game de Neoland";
 
@@ -12,17 +15,18 @@ export const createRegister = () => {
     registerInput.classList.add("registerInput")
     registerInput.placeholder = "tu nombre";
     
-    const registerBtn = document.createElement("button");
-    registerBtn.classList.add("registerBtn");
-    registerBtn.textContent = "Aceptar";
+    const Btn1 = document.createElement("button");
+    Btn1.classList.add("Btn1");
+    Btn1.textContent = "Aceptar";
     
     // registerBtn.addEventListener("click", () =>  registerInput.value)
     
     const app = document.querySelector("#app");
     cleanPage(app);
-    app.appendChild(h1);
-    app.appendChild(h2);
-    app.appendChild(registerInput);
-    app.appendChild(registerBtn);
+    app.appendChild(box1);
+    box1.appendChild(h1);
+    box1.appendChild(h2);
+    box1.appendChild(registerInput);
+    box1.appendChild(Btn1);
 }
 

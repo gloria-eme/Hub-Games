@@ -1,0 +1,223 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+/* #app {
+    
+    height: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 2em;
+    grid-row-gap: 3em;
+    margin-top: 10em;
+} */
+
+
+.divHome {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.h2Poke {
+    grid-area: 1 / 3 / 2 / 4;
+    font-family: 'Pokemon Solid', sans-serif; 
+    letter-spacing: 1rem;
+    text-transform:uppercase;
+    font-size: 3em;
+    margin-top: 1em;
+    
+}
+.user {
+    grid-area: 1 / 5 / 2 / 6;
+    justify-content: flex-end;
+    letter-spacing: 0.2rem;
+}
+
+
+.selectType {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-left: -5em;
+    margin-top: 5em;
+    justify-items: end;
+    width: 10em;
+    height: 2em;
+   
+}
+
+.sectionPoke {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));  
+    grid-column-gap:2em;
+    grid-row-gap: 3em;
+    margin-top: 7em;
+    margin-left: 5em;
+    margin-right: 5em;
+    height: 70em;
+    
+}
+
+#box {
+    height: 22em;
+    width: 15em;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+#card {
+    background-repeat: no-repeat;
+
+    background-size: 25em 25em;
+    background-position:center;
+    justify-content: center;
+    margin-top: -1em;
+    transition: all 0.7s ease-in-out;
+    transition: opacity 3s;
+
+}   
+
+
+
+.name {
+ font-size: medium;
+ font-family: 'Pokemon Solid', sans-serif;
+ transition: all 0.7s ease-in-out;
+ letter-spacing: 0.4rem;
+ margin-top: 1em;
+ padding: .5em;
+ text-transform:uppercase
+}
+
+.name:hover {
+margin-left: 1em;
+} 
+
+#name:first-letter{
+    text-transform: capitalize,
+
+} 
+.img {
+   justify-content: center;
+   margin-top: -1.5em;
+   height: 15em;
+   width: 15em;
+   transition: all 0.7s ease-in-out;
+   filter: drop-shadow(0 2px 5px rgba(7, 0, 0, 0.7));
+}
+
+img:hover {
+    height: 120%;
+    width: 120%;
+    margin-top: -6em;
+    margin-left: 5em;
+    padding-left: 1em;
+    position: sticky;
+    filter: drop-shadow(0 2px 5px rgba(1, 1, 1, 0.865));
+} 
+
+.type {
+   font-family: Ubuntu, "Calibri";
+   text-transform: uppercase;
+    justify-content: center;
+    opacity: 1;
+    border-color:2px solid #0596c7ce;
+    /* margin-top: -.2em; */
+    
+    padding: .5em;
+    transition: all 0.7s ease-in-out;
+}
+.type:hover {
+    opacity: 1;
+    padding: 1em;
+}
+
+.p1 {
+    font-family: Ubuntu, "Calibri";
+    opacity: 1;
+    display: inline;
+    border-color:2px solid #0596c7ce;
+    margin-right: -.7em;
+    margin-top: -.1em;
+    transition: all 0.7s ease-in-out;
+    background-color: #17cf26ad;
+    padding: .4em 1.2em;
+    border-radius: 10%;
+}
+.p1:hover {
+    opacity: 1;
+  
+}
+
+
+.p2 {
+    font-family: Ubuntu, "Calibri";
+    opacity: 1; 
+    display: inline;
+    border-color:2px solid #0596c7ce;
+    margin-left: 2.5em;
+    margin-top: -.1em;
+    transition: all 0.7s ease-in-out;
+    background-color: #bbc80ace;
+    padding: .4em 1.2em;
+    border-radius: 10%;
+}
+.p2:hover {
+    opacity: 1;
+   
+}
+
+
+.electric {
+    background-color:#160bb3ce ;
+} 
+.normal {
+    background-color:#a6636ecc ;
+} 
+.fire {
+    background-color:#e12618d0 ;
+} 
+.water {
+    background-color:#0596c7ce ;
+} 
+.ice {
+    background-color:#8ecfe4ea ;
+} 
+.rock {
+    background-color:#999799 ;
+} 
+.flying {
+    background-color:#f4c65dd7 ;
+}  
+.grass {
+
+    background-color:#4a9680bb ;
+}  
+.psychic {
+    background-color:#f69bb9c8 ;
+}  
+.ghost {
+    background-color:#8e898ac4 ;
+}  
+.bug {
+    background-color:#3cea3faa ;
+}  
+.poison {
+    background-color:#85103ba1 ;
+}  
+.ground {
+    background-color: #D2B074;
+}
+.dragon {
+    background-color:#da627cb2 ;
+} 
+.steel {
+    background-color:#1d8b99bd ;
+} 
+.fighting {
+    background-color:#12f574a4 ;
+} 
+.default {
+    background-color:#2b1a20ab ;
+} 

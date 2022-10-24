@@ -23,11 +23,10 @@ export const filterPoke = (list) => {
 
 
 export const selectTypes =  (list) => {
-    const option = document.querySelectorAll("option");
     const selectType = document.querySelector(".selectType");
     selectType.addEventListener("change", (event) => {
     filterType(list, event.target.value);
-    console.log(list)});
+    });
   };
 
 

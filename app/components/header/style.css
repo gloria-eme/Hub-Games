@@ -1,7 +1,4 @@
-/* .green {
-    background-color: rgba(89, 242, 47, 0.619);
-    color: rgb(253, 246, 246);
-} */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 
 header {
     display: grid;
@@ -18,7 +15,8 @@ header {
     background-image: url("../../public/images/paleta-color.png");
     width: 10vh; 
     grid-area: 1 / 1 / 2 / 2;
-    margin-left: 5vh; 
+    margin-left: 4em; 
+    margin-top: .8em;
     cursor: pointer; 
     background-repeat:no-repeat;
     height:10vh;

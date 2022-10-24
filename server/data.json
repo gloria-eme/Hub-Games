@@ -1,1 +1,52 @@
-{}
+{
+   "Quiz": [
+        {
+            "id": 1,
+            "img":"https://res.cloudinary.com/dsaayrh18/image/upload/v1666555511/Neoland/Game-hub/sostenido_akxnaf.png",
+            "pregunta": "No, no es un hastag ¿Cómo se llama este símbolo musical que eleva un semitono?",
+            "incorrecta1": "Becuadro",
+            "incorrecta2": "Bemol",
+            "incorrecta3": "Fusa",
+            "respuesta": "Sostenido"
+        },
+        {
+            "id": 2,
+            "img":"https://res.cloudinary.com/dsaayrh18/image/upload/v1666555511/Neoland/Game-hub/cajon_o4moqc.jpg",
+            "pregunta": "De dónde es originario este instrumento de percusión?",
+            "incorrecta1": "De Marruecos",
+            "incorrecta2": "De España",
+            "respuesta": "De Perú",
+            "incorrecta3": "De Brasil"
+        },
+        {
+            "id": 3,
+            "audio":"https://res.cloudinary.com/dsaayrh18/video/upload/v1666555512/Neoland/Game-hub/song_u9wwmr.mp3",
+            "pregunta": "Esta canción es de uno de los creadores del Rock and Roll. ¿De quién se trata?",
+            "incorrecta1": "Little Richard",
+            "incorrecta2": "Elvis Presley",
+            "incorrecta3": "Bill Haley ",
+            "respuesta": "Chuck Berry"
+        },
+        {
+            "id": 4,
+            "img":"https://res.cloudinary.com/dsaayrh18/image/upload/v1666555989/Neoland/Game-hub/images_iilcnq.jpg",
+            "pregunta": "¿Qué cantante es conocida como 'la reina del pop'?",
+            "incorrecta1": "Bristey Spears",
+            "respuesta": "Madonna",
+            "incorrecta2": "Amaia Montero",
+            "incorrecta3": "Lady Gaga"
+        },
+       
+        {
+            "id": 5,
+            "img":"https://res.cloudinary.com/dsaayrh18/image/upload/v1666555511/Neoland/Game-hub/queen_dtbo6h.jpg",
+            "pregunta": "¿Cuál de estas canciones no es del grupo Queen?",
+            "incorrecta1": "Another One Bites the Dust",
+            "respuesta": "Where are we now?",
+            "incorrecta2": "Don't Stop me now",
+            "incorrecta3": "These are the days of our lives"
+        }
+        
+    
+    ]
+}     

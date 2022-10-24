@@ -29,6 +29,8 @@ h1 {
     text-align: center;
     justify-content: center;
     margin-top: 1em; 
+    font-family: Cinzel, "calibri";
+    word-spacing: .5em;
 }
 
 /* #registerDiv {

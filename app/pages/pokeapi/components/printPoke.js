@@ -1,4 +1,5 @@
 import { cleanPage } from "../../../utils/cleanPage";
+import { printHome } from "../../home/app";
 
 export const printPokeApi = (list) => {
   const divHome = document.createElement("div");
@@ -11,6 +12,12 @@ export const printPokeApi = (list) => {
   const user = document.createElement("p");
   user.classList.add("user");
   user.innerText = `Hola ${localStorage.user}`;
+
+  const backHome = document.createElement("button");
+  backHome.classList.add("backHome");
+  backHome.addEventListener("click", () => {
+      return printHome();
+  })
 
   const selectType = document.createElement("select");
   selectType.classList.add("selectType");
@@ -29,6 +36,7 @@ export const printPokeApi = (list) => {
   app.appendChild(divHome);
   divHome.appendChild(h2Poke);
   divHome.appendChild(user);
+  divHome.appendChild(backHome)
   divHome.appendChild(selectType);
   app.appendChild(sectionPoke);
 };

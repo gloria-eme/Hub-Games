@@ -2,23 +2,30 @@
     width: 100px;
     height: 100px;
 }
-
-.user {
+.divHome {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.user2 {
     grid-area: 1 / 5 / 2 / 6;
     position:relative;
     justify-content: flex-end;
+    margin-left: 50em;
     letter-spacing: 0.2rem;
     font-family: Ubuntu;
     font-size: large;
     padding-bottom: 2em;
 }
     
-.backHome {
+.backHome2 {
     background-image: url("../../public/images/home1.png");
     grid-area: 1 / 5 / 2 / 6;
     width: 15vh;  
-    margin-left: -5em;
-    margin-top: 5em;
+    margin-left: 40em;
+    margin-top: -1em;
     cursor: pointer; 
     background-repeat:no-repeat;
     height:15vh;
@@ -41,6 +48,7 @@
 .h2Quiz {
     grid-area: 2 / 2 / 3 / 5;
     justify-content: center;
+   margin-top: 1em;
 }
 
 .imgQuiz {
@@ -49,18 +57,32 @@
     justify-items: center;
     width: 60vh;
     height: 40vh;
-
+    margin-top: 2em;
+    margin-left: 28vh;
 }
 
 .answers {
     grid-area: 3 / 2 / 4 / 5;
     justify-content: center;
     display:block;
+    margin-top: 2em;
+    display: block;
 }
 .answer {
     grid-area: 3 / 2 / 4 / 5;
     justify-content: center;
 }
+
+#a{
+
+}
+
+#b{
+
+}
+
+
+
 .check {
     grid-area: 3 / 2 / 4 / 5; 
     justify-content: center;

@@ -32,11 +32,11 @@ const printQuiz = () => {
   // h2Quiz.innerText = "PokeApi";
 
   const user = document.createElement("p");
-  user.classList.add("user");
+  user.classList.add("user2");
   user.innerText = `Hola ${localStorage.user}`;
 
   const backHome = document.createElement("button");
-  backHome.classList.add("backHome");
+  backHome.classList.add("backHome2");
   backHome.addEventListener("click", () => printHome());
 
   const sectionQuiz = document.createElement("div");
@@ -95,7 +95,7 @@ const chooseAnswer = (list) => {
 
     let score = 0;
     const {respuesta} = quiz
-    // const btnOptions = [select_id("a"), select_id("b"), select_id("c"), select_id("d")]
+    
     if (answer === respuesta) {
       score++;
       alert("Eso es!!😀🎉") ;
